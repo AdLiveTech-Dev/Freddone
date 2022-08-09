@@ -1,0 +1,316 @@
+/***** Css By Developer  ******/
+
+
+/**** Start Login Form Style ****/
+
+.login_page {
+    padding: 5% 0;
+}
+.login_popup {
+    text-align: center;
+}
+.modal-body.login_modal_body {
+    padding: 0;
+}
+.gradient_bg {
+    background-image: linear-gradient(to right, #75e4b9 , #8bc846);
+	border-bottom-right-radius: 80%;
+}
+.form-title i {
+    background-image: linear-gradient(to right, #baf1db , #c4e3a3);
+    padding: 5%;
+    border-radius: 50%;
+    color: white;
+    font-size: 52px;
+}
+.my-form {
+    padding: 100px 50px;
+    border-radius: 10px;
+}
+.form-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-title h1{
+  margin: 0px;
+  color: #0cd6a8;
+}
+.single-input {
+    width: 100%;
+    border: none;
+    display: flex;
+    margin-bottom: 20px;
+    background: #e6e7e8;
+    border-radius: 25px;
+    padding-left: 3%;
+}
+.single-input i {
+    padding: 5px 16px;
+    color: #58595b;
+}
+.single-input input{
+  border:0px solid #c1c1c1;
+  width: 100%;
+  outline: none;
+  background: #e6e7e8;
+  border-radius: 25px;
+  text-indent: 5px;
+}
+.submit-btn{
+   border:0px solid #c1c1c1;
+   margin-top: 30px;
+  padding-left: 0% !important; 
+  
+}
+.submit-btn input{
+   background: #27a814;
+   color: #fff;
+   cursor: pointer; 
+   width: 270px;
+   height: 40px;
+}
+.green_color i
+{
+color:#27a814;
+font-size: 60px;
+}
+.red_color {
+    color: #ca3a36;
+}
+.login_pop .modal-dialog {
+    max-width: 800px;
+    box-shadow: 20px 20px 5px #00000057;
+    min-height: auto;
+    margin: 4% auto;
+}
+.login_pop .modal-header {
+    padding: 0;
+    border-bottom: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.logo-img {
+    padding: 0 35%;
+}
+.gradient_bg {
+    display: flex;
+    align-items: center;
+}
+.login_pop .modal-header .close {
+    border: none;
+    background: transparent;
+    font-size: 65px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #27a814;
+    z-index: 9999;
+}
+.single-input input::placeholder {
+    font-size: 10px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.single-input span i {
+    font-size: 22px;
+    font-weight: 500;
+}
+.registered_text {
+    font-size: 12px;
+    color: #726f6f;
+}
+.red_color {
+    color: #ca3a36;
+    font-size: 12px;
+}
+.radio_inline ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.radio_inline ul li {
+    width: 50%;
+}
+.radio_inline ul li label {
+    font-size: 10px;
+    margin-left: 15px;
+    color: #726f6f;
+}
+.radio_inline ul {
+    list-style: none;
+}
+.radio_inline ul li {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+ul li input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+input[type=radio]:checked ~ .check {
+    border: 2px solid #726f6f;
+}
+input[type=radio]:checked ~ .check::before {
+    background: #726f6f;
+}
+ul li .check {
+    display: block;
+    position: absolute;
+    border: 2px solid #AAAAAA;
+    border-radius: 100%;
+    height: 13px;
+    width: 13px;
+    top: 1px;
+    left: 0;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
+}
+ul li .check::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    height: 5px;
+    width: 5px;
+    top: 2px;
+    left: 2px;
+    margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+}
+body.modal-open .modal-backdrop.show {
+    opacity: 1;
+    background: #FFF;
+}
+
+
+/******/
+
+
+/******* Registration Page Style Here ********/
+
+.registration_body .gradient_bg {
+    background: transparent;
+}
+.registration_body {
+    background: url(../img/registration_form_bg.png)no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.register_pop .modal-dialog {
+    max-width: 1000px;
+}
+.registration_body .my-form {
+    padding: 25px;
+}
+.registration_body .my-form .enra_text {
+    font-size: 22px;
+    font-weight: 400;
+    color: #8ac949;
+    margin-bottom: 20px;
+}
+.registration_body .form_title {
+    font-size: 25px;
+    font-weight: 400;
+    color: #575656;
+}
+.input_div input {
+    width: 100%;
+    border: none;
+    background: #e3e3e3;
+    padding: 8px 10px;
+    text-indent: 5px;
+    border-radius: 15px;
+}
+.input_div {
+    margin-bottom: 20px;
+}
+.input_div label {
+    text-align: left;
+    line-height: normal;
+    padding-left: 20px;
+    font-size: 13px;
+    color: #979191;
+}
+.input_div input::placeholder, .input_div select {
+    font-size: 10px;
+    line-height: normal;
+}
+.input_div select {
+    width: 100%;
+    border: none;
+    background: #e3e3e3;
+    padding: 14px 10px;
+    text-indent: 5px;
+    border-radius: 15px;
+    color: #726f6f;
+}
+.row.yes_no .input_div input {
+    width: 50%;
+}
+.radio_inline ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+.submit_btn input {
+    width: max-content;
+    display: block;
+    margin: 0 auto 10px;
+    padding: 8px 70px;
+    border-radius: 30px;
+    background: #ed1c24;
+}
+.submit_btn, .submit_btn a {
+    font-size: 12px;
+    color: #817a7a;
+}
+.submit_btn a:hover {
+    color: #ed1c24;
+}
+.row.yes_no .input_div {
+    display: flex;
+    align-items: center;
+}
+.row.yes_no .input_div input {
+    width: 20%;
+    margin-right: 10px;
+    border-radius: 9px;
+}
+.select_field {
+    position: relative;
+}
+.select_field:before {
+    content: "\f107";
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    z-index: 999;
+    right: 5px;
+    top: 5px;
+    pointer-events: none;
+}
+.row.country_c_phone .col-lg-4.pr-0 {
+    padding-right: 0;
+}
+.row.country_c_phone .col-lg-8.pl-0 {
+    padding-left: 0px;
+}
+.row.country_c_phone .input_div select {
+    background: transparent;
+}
+
+
+
+
+/*********/
+
+
+
+/*********/
