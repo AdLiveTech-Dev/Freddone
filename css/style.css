@@ -211,6 +211,13 @@ a {font-size: 15px;
 .site-search-bar {
    width: 55%;
 }
+.card-section.section-padding {
+   padding-top: 30px;
+}
+.how-it-data img {
+   width: 55px;
+   height: 55px;
+}
 .toggle-menu-desktop {
    border: 1px solid #ccc;
    width: 45px;
@@ -384,11 +391,11 @@ a {font-size: 15px;
    margin-bottom: 0px;
    margin-right: 6px;
 }
-.filter-section .col-lg-1 {
+.main-header .col-lg-1 {
    flex: 0 0 auto;
    width: 12%;
 }
-.filter-section .col-lg-11 {
+.main-header .col-lg-11 {
    flex: 0 0 auto;
    width: 88%;
 }
@@ -409,10 +416,17 @@ a {font-size: 15px;
    font-size: 17px;
    font-weight: 500;
    color: #000;
+   width: 85%;
+   text-align: center;
+   justify-content: center;
+   margin-left: auto;
 }
 .filter-section {
-   padding: 10px 0px 0px;
-   border-bottom: 1px solid #e5e5e5;
+   padding: 30px 0px 0px;
+   /* border-bottom: 1px solid #e5e5e5; */
+}
+.main-header.without-filter-header {
+   padding-bottom: 20px;
 }
 .section-padding {
    padding: 70px 0px;
@@ -540,7 +554,7 @@ a {font-size: 15px;
    transition: 0.5s;
 }
 .know-more {
-   display: inline-block;
+   display: inline-flex;
    padding: 10px 30px;
    border: 1px solid #ccc;
    align-items: center;
@@ -580,6 +594,9 @@ color: #5bdb90;
 .main-title h2 {
    font-size: 50px;
    font-weight: bold;
+}
+.faq-section .main-title h2 {
+   font-size: 2.09rem;
 }
 .campaign-section.section-padding {
    padding: 70px 0px 0px;
@@ -692,7 +709,7 @@ color: #5bdb90;
    padding-left: 30px;
 }
 .faq-image {
-   padding-right: 40px;
+   padding-right: 22px;
 }
 .accoudian-data .accordion-item {
    margin-bottom: 20px;
@@ -702,6 +719,9 @@ color: #5bdb90;
 .accoudian-data .accordion-item .accordion-button {
    background: transparent;
    padding-left: 20px;
+   font-size: 22px;
+   color: #636363;
+   font-weight: 500;
 }
 .accoudian-data .accordion-item .accordion-collapse{
    background-color: #152738;
@@ -726,6 +746,16 @@ color: #5bdb90;
    content: '\f059';
    font-family: 'Font Awesome 5 Free';
    margin-right: 7px;
+}
+.accoudian-data .accordion-button::after{
+   background-image: url(../img/arrow-down-short.svg);
+    background-size: 26px;
+    position: relative;
+    top: -4px;
+}
+.accoudian-data .accordion-button:not(.collapsed)::after {
+   background-image: url(../img/arrow-down-short-green.svg);
+   left: 6px;
 }
 footer {
    padding: 100px 0px 50px;
@@ -794,16 +824,19 @@ footer {
    padding-left: 40px;
    border-left: 1px solid #38444f;
 }
+.register-login img {
+   width: 20px;
+}
 .social-media ul li a {
-   width: 55px;
-   height: 55px;
+   width: 50px;
+   height: 50px;
    display: flex;
    border: 1px solid #323d47;
    color: #fff;
    align-items: center;
    justify-content: center;
    border-radius: 10px;
-   font-size: 20px;
+   font-size: 18px;
    margin-left: 10px;
 }
 
@@ -812,3 +845,177 @@ footer {
    align-items: center;
 }
 
+/* Result page css */
+.main-header {
+   border-bottom: 1px solid #e5e5e5;
+   padding-bottom: 0px;
+}
+.activity-data {
+   display: flex;
+   align-items: flex-end;
+   padding-bottom:33px;
+   justify-content: space-between;
+}
+.activity-image img {
+   width: 100%;
+   height: auto;
+   border-radius: 20px;
+}
+.actvity-item h2 {
+   font-size: 26px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.actvity-item p {
+   font-size: 15px;
+   color: #636363;
+   line-height: 22px;
+}
+.total-activity p {
+   font-size: 15px;
+   color: #636363;
+   line-height: 22px;
+}
+.activity-filter {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 45px;
+}
+.activity-data-title h2 {
+   font-size: 26px;
+   font-weight: bold;
+}
+.activity-filter .filter-icon {
+   padding-top: 0px;
+}
+.activity-filter .filter-icon a {
+   padding: 10px 20px;
+   width: 100%;
+}
+.read-more.add-campaign-btn {
+   font-size: 17px;
+   color: #7cb4c8;
+   background-color: transparent;
+   border: 1px solid #ccc;
+   padding: 11px 20px;
+   display: inline-block;
+   margin-top: 10px;
+}
+
+.poster-warrper-activity {
+   transition: 0.5s;
+   border-radius: 15px;
+   margin: 20px 5px 0px 10px;
+   padding: 10px 10px 25px 10px;
+}
+.poster-warrper-activity:hover {
+   padding: 10px 10px 25px 10px;
+   background-color: #fff;
+   box-shadow: 1px 1px 20px 9px #0000000d;
+}
+.poster-album-activity {
+   position: relative;
+   overflow: hidden;
+   border-radius: 15px;
+}
+.poster-album-activity img {
+   transition: 0.5s;
+}
+
+.poster-album-activity img {
+   width: 100%;
+   height: auto;
+}
+.poster-album-activity span {
+   position: absolute;
+   bottom: 15px;
+   left: 15px;
+   background-color: #f7f7f7;
+   padding: 11px 23px 7px;
+   color: #5bdb90;
+   font-size: 21px;
+   font-weight: bold;
+   border-radius: 10px;
+   line-height: 100%;
+   z-index: 1;
+}
+.poster-item-activity {
+   margin: 25px 0px 0px;
+}
+.poster-warrper-activity:hover .read-more.add-campaign-btn {
+   background-color: #7cb4c8;
+   color: #fff;
+}
+.poster-item-activity h4 {
+   font-size: 19px;
+   line-height: 28px;
+   font-weight: bold;
+}
+.poster-item-activity span {
+   font-size: 14px;
+   margin: 10px 0px;
+   display: flex;
+   align-items: center;
+   font-weight: 500;
+   color: #152738;
+}
+.poster-item-activity span svg {
+   margin-right: 4px;
+}
+.activity-box {
+   width: 100%;
+   height: 100%;
+   overflow-x: hidden;
+   max-height: 925px;
+   overflow-y: auto;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+.activity-box .row .col-12:first-child .poster-warrper-activity {
+   margin-top: 0;
+}
+.activity-box .row .col-12:nth-child(2) .poster-warrper-activity {
+   margin-top: 0px;
+}
+.activity-box::-webkit-scrollbar {
+   width: 3px;
+ }
+ 
+ /* Track */
+ .activity-box::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+ }
+  
+ /* Handle */
+ .activity-box::-webkit-scrollbar-thumb {
+   background: #000000; 
+ }
+ 
+ /* Handle on hover */
+ .activity-box::-webkit-scrollbar-thumb:hover {
+   background: #cccccc; 
+ }
+ .stricky-activity {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 30px;
+}
+.poster-album-activity figure {
+   margin-bottom: 0px;
+}
+.poster-album-activity .owl-dots {
+   margin-top: 0px !important;
+   position: absolute;
+   bottom: 28px;
+   right: 12px;
+   background-color: transparent;
+}
+.poster-album-activity .owl-dots button span {
+   width: 0px !important;
+   background-color: transparent !important;
+   margin: 0px !important;
+   padding: 0px !important;
+   height: 0px !important;
+}
