@@ -181,10 +181,9 @@ ul li .check::before {
     -webkit-transition: background 0.25s linear;
 }
 body.modal-open .modal-backdrop.show {
-    opacity: 1;
-    background: #FFF;
+    opacity: .8;
+    background: #152738;
 }
-
 
 /******/
 
