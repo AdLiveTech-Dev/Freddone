@@ -1228,3 +1228,211 @@ footer {
 .switch input:checked + .slider:before {
    transform: translateX(26px);
 }
+
+.welcome-data p {
+   font-size: 21px;
+   line-height: normal;
+   color: #404040;
+}
+
+.welcome-data h1 {
+   font-size: 50px;
+   font-weight: bold;
+   margin-bottom: 40px;
+}
+.welcome-data {
+   text-align: center;
+}
+.container-custom {
+   width: 85%;
+   margin: 0 auto;
+}
+.advertising-section.section-padding {
+   padding-top: 0px;
+}
+.owner-details, .perdid-time, .budget-item {
+   display: flex;
+   align-items: center;
+}
+.owner-data-warrer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 35px;
+}
+.icon-image-details img {
+   border-radius: 50%;
+   width: 100%;
+   max-width: 85px;
+   height: 100%;
+   max-height: 85px;
+}
+.owner-data h2 {
+   font-size: 25px;
+}
+.owner-data h6 {
+   color: #989898;
+   font-size: 15px;
+}
+.read-more.owner-btn {
+   display: inline-block;
+   padding: 9px 16px;
+   background-color: #7cb4c8;
+   font-size: 17px;
+   font-weight: 600;
+   margin-top: 10px;
+}
+.description-points h3 strong {
+   color: #22d16c;
+}
+.icon-image-details.money-bag-icon img {
+   max-width: 35px;
+   border-radius: 0px;
+}
+.owner-data span svg {
+   margin-right: 3px;
+}
+
+.owner-data span {
+   font-size: 16px;
+}
+.owner-data h2 {
+   font-size: 25px;
+   margin: 5px 0px;
+}
+.icon-image-details {
+   width: 20%;
+   margin-right: 15px;
+   min-width: 85px;
+   border: 1px solid #ccc;
+   border-radius: 50%;
+   max-height: 85px;
+   min-height: 85px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.perdid-time {
+   width: 50%;
+   padding: 0px 20px;
+}
+.budget-item {
+   width: 20%;
+}
+.owner-details {
+   width: 30%;
+}
+.owner-data h2 strong {
+   color: #22d16c;
+}
+
+.main-title-inner h2 {
+   font-size: 40px;
+   font-weight: bold;
+}
+.main-title-inner {
+   margin-bottom: 40px;
+}
+.consiult-data {
+   border: 1px solid #ccc;
+   border-radius: 20px;
+}
+.consult-card-profiles {
+   width: 100%;
+   display: flex;
+    align-items: center;
+}
+.profile-images {
+   width: 20%;
+   margin-right: 15px;
+   min-width: 85px;
+   border: 1px solid #ccc;
+   border-radius: 50%;
+   max-height: 85px;
+   min-height: 85px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.profile-images img {
+   border-radius: 50%;
+   width: 100%;
+   max-width: 85px;
+   height: 100%;
+   max-height: 85px;
+}
+.profile-data h2 {
+   font-size: 25px;
+   margin: 0px 0px;
+}
+.profile-data span {
+   font-size: 16px;
+   display: flex;
+   align-items: center;
+}
+.consult-card {
+   background-color: #fcfcfc;
+   border-radius: 20px 0px 0px 20px;
+   padding: 35px;
+   height: 100%;
+}
+.profiles-description p {
+   color: #636363;
+   margin: 20px 0px 10px;
+   font-size: 15px;
+}
+.profile-data span svg {
+   height: 14px;
+   position: relative;
+   top: -1px;
+   margin-right: 3px;
+}
+.under-stand {
+   display: flex;
+   padding: 35px;
+   border-left: 1px solid #ccc;
+   height: 100%;
+}
+.description-points {
+   width: 40%;
+}
+.description-points ul {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   justify-content: space-between;
+}
+.description-points ul li {
+   margin-bottom: 20px;
+}
+.description-points ul li:last-child {
+   margin-bottom: 0px;
+}
+.description-points h4 {
+   font-size: 14px;
+   color: #989898;
+   margin-bottom: 2px;
+}
+.description-points h3 {
+   font-size: 1.4rem;
+   color: #404040;
+}
+.profile-thumbnails {
+   width: 60%;
+   height: auto;
+   padding-left: 25px;
+}
+.profile-thumbnails img {
+   width: 100%;
+   height: auto;
+   border-radius: 20px;
+}
+.consiult-data .col-12:last-child {
+   padding-left: 0px;
+}
+.consiult-data .col-12:first-child {
+   padding-right: 0px;
+}
+.advertising-section .consiult-data {
+   margin-bottom: 45px;
+}
