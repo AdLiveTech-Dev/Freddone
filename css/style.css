@@ -1300,6 +1300,9 @@ footer {
    font-size: 25px;
    margin: 5px 0px;
 }
+.owner-data-warrer .owner-details {
+   align-items: flex-start;
+}
 .icon-image-details {
    width: 20%;
    margin-right: 15px;
@@ -1311,6 +1314,7 @@ footer {
    display: flex;
    align-items: center;
    justify-content: center;
+   max-width: 85px;
 }
 .perdid-time {
    width: 50%;
@@ -1334,14 +1338,14 @@ footer {
    margin-bottom: 40px;
 }
 .consiult-data {
-   border: 1px solid #ccc;
+   border: 1px solid #e5e5e5;
    border-radius: 20px;
 }
 .consult-card-profiles {
    width: 100%;
    display: flex;
     align-items: center;
-}
+}    
 .profile-images {
    width: 20%;
    margin-right: 15px;
@@ -1379,7 +1383,7 @@ footer {
 .profiles-description p {
    color: #636363;
    margin: 20px 0px 10px;
-   font-size: 15px;
+   font-size: 18px;
 }
 .profile-data span svg {
    height: 14px;
@@ -1390,7 +1394,7 @@ footer {
 .under-stand {
    display: flex;
    padding: 35px;
-   border-left: 1px solid #ccc;
+   border-left: 1px solid #e5e5e5;
    height: 100%;
 }
 .description-points {
@@ -1435,4 +1439,210 @@ footer {
 }
 .advertising-section .consiult-data {
    margin-bottom: 45px;
+}
+
+.request-form {
+   padding: 100px;
+   background-color: #152738;
+   border-radius: 20px;
+}
+.title-heading {
+   padding-bottom: 35px;
+}
+.title-heading h2 {
+   color: #ffffff;
+   font-size: 40px;
+   text-align: center;
+   font-weight: bold;
+}
+.input-field {
+   margin-bottom: 20px;
+}
+.input-text {
+   width: 100%;
+   border: 1px solid #ffff;
+   padding: 20px;
+   border-radius: 10px;
+   color: #636363;
+   font-size: 16px;
+}
+.input-field select {
+   width: 100%;
+   padding: 19px;
+   border-radius: 10px;
+   color: #636363;
+   font-size: 16px;
+}
+.input-text.textarea-input {
+   min-height: 140px;
+}
+.submit-button {
+   text-align: center;
+}
+.read-more.submit-btn:hover {
+   border-color: #ffffff;
+}
+.read-more.submit-btn {
+   border: 1px solid #22d16b;
+}
+.about-campaign-image img {
+   width: 100%;
+   height: auto;
+   border-radius: 20px;
+}
+.about-us-section {
+   padding-top: 80px;
+   padding-bottom: 100px;
+}
+.campaign-data-about h2 {
+   font-size: 40px;
+   font-weight: bold;
+   margin-bottom: 25px;
+}
+
+.read-more.campaign-btn:hover {
+   background-color: #7cb4c8;
+   color: #ffffff;
+}
+
+.read-more.campaign-btn {
+   font-size: 18px;
+   color: #7cb4c8;
+   background-color: transparent;
+   font-weight: 400;
+   border: 1px solid #ccc;
+   display: inline-block;
+   /* margin-top: 20px; */
+}
+
+.campaign-data-about p {
+   font-size: 21px;
+   line-height: normal;
+   color: #404040;
+   margin-bottom: 30px;
+}
+.about-train-campaign {
+   padding-left: 80px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+/* single page */
+
+.scampaign-data-page {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.Campaign-title h2 {
+   font-size: 40px;
+}
+.Campaign-title h6 {
+   font-size: 17px;
+   font-weight: 500;
+   color: #152738;
+}
+.share-data-link {
+   display: flex;
+   align-items: center;
+}
+.share-data-link a {
+   display: flex;
+   align-items: center;
+   padding: 9px 15px;
+   border: 1px solid #e5e5e5;
+   border-radius: 10px;
+   margin-left: 10px;
+   font-size: 17px;
+   font-weight: 500;
+   color: #404040;
+}
+.share-data-link a img {
+   width: 16px;
+   margin-right: 4px;
+}
+.campaign-full-description p {
+   font-size: 21px;
+   color: #404040;
+   margin-bottom: 20px;
+}
+
+.campaign-full-description {
+   padding-top: 40px;
+}
+.single-gallery-data {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.single-gallery-data .item-gallery:nth-child(1) {
+   width: 35%;
+   min-height: 250px;
+}
+.item-gallery {
+   margin-bottom: 20px;
+   border-radius: 20px;
+   overflow: hidden;
+   min-height: 211px;
+}
+.single-gallery-data .item-gallery:nth-child(2) {
+   width: 59%;
+   margin-left: 20px;
+   min-height: 250px;
+}
+.single-gallery-data .item-gallery:nth-child(3) {
+   width: 100%;
+}
+.single-gallery-data .item-gallery:nth-child(4) {
+   width: 47%;
+   margin-right: 10px;
+}
+.single-gallery-data .item-gallery:nth-child(5) {
+   width: 47%;
+   margin-left: 10px;
+}
+.item-gallery img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.single-campaign-data {
+   padding-right: 40px;
+}
+.item-gallery.last-gallery {
+   position: relative;
+   transition: 0.5s;
+}
+.view-all-gallery {
+   position: absolute;
+   top: 0;
+   z-index: 1;
+   height: 100%;
+   width: 100%;
+   background-color: rgb(0 0 0 / 50%);
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.view-all-gallery h6:before {
+   content: '';
+   width: 100%;
+   height: 2px;
+   background-color: #ffffff;
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+   transition: 0.5s;
+}
+.item-gallery.last-gallery:hover .view-all-gallery h6:before {
+   width: 0;
+}
+
+.view-all-gallery h6 {
+   color: #fff;
+   position: relative;
+   font-size: 20px;
+   font-weight: bold;
 }
