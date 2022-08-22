@@ -32,8 +32,8 @@
                             <a href="#">Rome</a>
                         </div>
 
-                        <div class="menu-item">
-                            <a href="#">Budget</a>
+                        <div class="menu-item" id="budget-show">
+                            <a href="javascript:void(0);">Budget</a>
                         </div>
                      </div>
                      <button>
@@ -41,6 +41,30 @@
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                           </svg>
                      </button>
+<!-- dropdown 3 start -->
+<div class="search_drop" style="display: none;">
+    <div class="header-filter-menu">
+        <div class="fiter-lable-header">
+            <h4>Select your budget</h4>
+        </div>
+        <div class="budget-filter-form">
+            <form>
+                <div class="filter-area-header">
+                    <input type="text" placeholder="Min.Budget" class="input-filter-min">
+                    <div class="top-header-diffreance">
+                        <h4>To</h4>
+                    </div>
+                    <input type="text" placeholder="Min.Budget" class="input-filter-max">
+                    <button class="read-more budget-btn-header">
+                        Apply
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- dropdown 3 End -->
+
                  </div>
              </div>
              <div class="button-wapper">
@@ -1075,7 +1099,35 @@ places for Advertising
                 })
             })
         </script>
+<script>
+     $(document).ready(function() {
+    	$('#budget-show').on("click", function(e) {
+			$('.search_drop').slideToggle();
+            $('#budget-show').addClass('budget-active');
+            $('body').addClass('overlay-div');
+			e.stopPropagation(); 
+		});
 
+		$(document).on("click", function(e) {	
+			if(!(e.target.closest('.search_drop'))){	
+				$(".search_drop").slideUp(); 
+                $('#budget-show').removeClass('budget-active');
+                $('body').removeClass('overlay-div');		
+			}
+	   });
+    });
+</script>
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 0){  
+        $('.main-header').addClass("sticky");
+    }
+    else{
+        $('.main-header').removeClass("sticky");
+    }
+});
+
+</script>
 
 
 </body>

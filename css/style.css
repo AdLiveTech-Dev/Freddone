@@ -203,6 +203,7 @@ a {font-size: 15px;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   padding-bottom: 30px;
 }
 .site-logo img {
    width: 130px;
@@ -297,6 +298,47 @@ a {font-size: 15px;
    border-radius: 10px;
    top: 0px;
 }
+.search_drop {
+   position: absolute;
+   top: 56px;
+   left: 0;
+   width: 100%;
+   background-color: #ffff;
+   border-radius: 10px;
+   padding: 30px;
+   z-index: 9;
+}
+.fiter-lable-header h4 {
+   font-size: 20px;
+   margin-bottom: 17px;
+}
+.filter-area-header {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+.filter-area-header .input-filter-min, .filter-area-header .input-filter-max {
+   width: 100%;
+   padding: 12px;
+   border-radius: 10px;
+   border: 1px solid #ccc;
+   min-height: 50px;
+   max-height: 50px;
+}
+.top-header-diffreance h4 {
+   font-size: 18px;
+   margin: 0 20px;
+   color: #999999;
+}
+.read-more.budget-btn-header {
+   width: auto;
+   height: auto;
+   right: 0;
+   margin-left: 13px;
+   padding: 6px 30px;
+   min-height: 50px;
+}
+
 
 /* Silder collection css start */
 
@@ -422,8 +464,37 @@ a {font-size: 15px;
    margin-left: auto;
 }
 .filter-section {
-   padding: 30px 0px 0px;
+   /* padding: 30px 0px 0px; */
    /* border-bottom: 1px solid #e5e5e5; */
+}
+.menu-item.budget-active a:after {
+   transform: rotate(180deg);
+}
+.menu-item.budget-active {
+   position: relative;
+}
+.menu-item.budget-active:before {
+   content: '';
+   width: 100%;
+   height: 2px;
+   background-color: #7cb4c8;
+   position: absolute;
+   bottom: -31px;
+}
+.main-header.sticky .search_drop {
+   top: 81px;
+}
+.menu-item.budget-active:after {
+   content: '';
+   width: 15px;
+   height: 15px;
+   background-color: #7cb4c8;
+   position: absolute;
+   bottom: -39px;
+   transform: rotate(45deg);
+   right: 0;
+   left: 0;
+   margin: 0 auto;
 }
 .main-header.without-filter-header {
    padding-bottom: 20px;
@@ -844,11 +915,37 @@ footer {
    display: flex;
    align-items: center;
 }
+.main-header.sticky {
+   position: fixed;
+   width: 100%;
+   height: auto;
+   left: 0;
+   top: 0;
+}
+.main-header.sticky .filter-section {
+   display: none;
+}
 
 /* Result page css */
 .main-header {
    border-bottom: 1px solid #e5e5e5;
    padding-bottom: 0px;
+   position: relative;
+   z-index: 11;
+   background-color: #fff;
+}
+.overlay-div {
+   position: relative;
+}
+.overlay-div:before {
+   content: '';
+   width: 100%;
+   height: 100%;
+   background-color: #2d3d4c;
+   position: absolute;
+   left: 0;
+   z-index: 3;
+   opacity: 0.9;
 }
 .activity-data {
    display: flex;
