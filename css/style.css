@@ -210,7 +210,8 @@ a {font-size: 15px;
    height: auto;
 }
 .site-search-bar {
-   width: 55%;
+   width: 64%;
+   max-width: 936px;
 }
 .card-section.section-padding {
    padding-top: 30px;
@@ -253,6 +254,7 @@ a {font-size: 15px;
    align-items: center;
    justify-content: space-between;
    width: 100%;
+   cursor: pointer;
 }
 .menu-item {
    width: 33.33%;
@@ -339,7 +341,78 @@ a {font-size: 15px;
    min-height: 50px;
 }
 
-
+.review-romo-top {
+   position: relative;
+   margin-bottom: 30px;
+}
+.review-romo-top input {
+   width: 100%;
+   padding: 17px 10px 17px 35px;
+   border-radius: 15px;
+   border: 1px solid #ccc;
+   color: #636363;
+   font-family: 'GT Walsheim';
+}
+.input-search-warrper .review-romo-top button {
+   position: absolute;
+   left: 13px;
+   background-color: transparent;
+   width: 17px;
+   height: 17px;
+   top: 20px;
+}
+.input-search-warrper .review-romo-top button svg {
+   color: #ffffff;
+   width: 16px;
+   height: 16px;
+}
+.romo-map-image img {
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+   object-fit: cover;
+}
+.input-search-warrper .review-romo-top button path {
+   fill: #636363;
+}
+.main-label-title h2 {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.main-label-title ul li {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 4px;
+}
+.main-label-title h4 {
+   font-size: 20px;
+   color: #636363;
+}
+.main-label-title img {
+   width: 13px !important;
+   display: inline-block !important;
+}
+.review-star-header span {
+   width: 21px;
+   display: inline-block;
+   font-size: 15px;
+   margin-left: 3px;
+}
+.main-label-title ul li:last-child {
+   margin-bottom: 0px;
+}
+.romo-review-data .main-label-title {
+   margin-top: 32px;
+   border-top: 1px solid #e5e5e5;
+   padding-top: 27px;
+}
+.romo-review-data .main-label-title:first-child {
+   margin-top: 0px;
+   padding-top: 0px;
+   border-top: 0px;
+}
 /* Silder collection css start */
 
 .collection-icon-wapper {
@@ -472,6 +545,7 @@ a {font-size: 15px;
 }
 .menu-item.budget-active {
    position: relative;
+   pointer-events: none;
 }
 .menu-item.budget-active:before {
    content: '';
