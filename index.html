@@ -25,8 +25,8 @@
              <div class="site-search-bar">
                  <div class="input-search-warrper">
                      <div class="main-warrper">
-                        <div class="menu-item">
-                            <a href="#">Date</a>
+                        <div class="menu-item" id="date-show">
+                            <a href="javascript:void(0);">Date</a>
                         </div>
                         <div class="menu-item" id="romo-show">
                             <a href="javascript:void(0);">Rome</a>
@@ -41,6 +41,23 @@
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                           </svg>
                      </button>
+
+<!-- dropdown 1 start -->
+<div class="search_drop" id="search_date" style="display: none;">
+   <div class="date-highlight-warrper">
+        <div class="bottom-date-item">
+            <ul>
+                <button class="custom-date-button active-date-point">Exact Date</button>
+                <button class="custom-date-button">±  2 Day</button>
+                <button class="custom-date-button">±  3 Day</button>
+                <button class="custom-date-button">±  7 Day</button>
+            </ul>
+        </div>
+   </div>
+</div>
+<!-- dropdown 1 End -->
+
+
 <!-- dropdown 2 start -->
 <div class="search_drop" id="search_romo" style="display: none;">
     <div class="romo-map">
@@ -1296,6 +1313,27 @@ places for Advertising
                 })
             })
         </script>
+
+<script>
+    $(document).ready(function() {
+       $('#date-show').on("click", function(e) {
+           $('#search_date').slideToggle();
+           $('#date-show').addClass('budget-active');
+           $('body').addClass('overlay-div-new-date');
+           e.stopPropagation(); 
+       });
+
+       $(document).on("click", function(e) {	
+           if(!(e.target.closest('#search_date'))){	
+               $("#search_date").slideUp(); 
+               $('#date-show').removeClass('budget-active');
+               $('body').removeClass('overlay-div-new-date');		
+           }
+
+      });
+   });
+</script>
+
 <script>
      $(document).ready(function() {
     	$('#budget-show').on("click", function(e) {
@@ -1320,7 +1358,7 @@ places for Advertising
        $('#romo-show').on("click", function(e) {
            $('#search_romo').slideToggle();
            $('#romo-show').addClass('budget-active');
-           $('body').addClass('overlay-div');
+           $('body').addClass('overlay-div-new');
            e.stopPropagation(); 
        });
 
@@ -1328,7 +1366,7 @@ places for Advertising
            if(!(e.target.closest('#search_romo', '#romo-show', 'body'))){	
                $("#search_romo").slideUp(); 
                $('#romo-show').removeClass('budget-active');
-               $('body').removeClass('overlay-div');		
+               $('body').removeClass('overlay-div-new');		
            }
       });
    });
