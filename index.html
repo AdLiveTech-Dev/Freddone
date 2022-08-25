@@ -8,8 +8,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/range-style.css">
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/date-style.css">
+
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
@@ -45,6 +47,22 @@
 <!-- dropdown 1 start -->
 <div class="search_drop" id="search_date" style="display: none;">
    <div class="date-highlight-warrper">
+    <div class="mod-search " id="eviivo-availability-search" style="display: block;">
+
+        <input value="" id="default-nights-serviced" type="hidden">
+            <div class="column column-1 tooltip-holder" style="display: none;">
+                <label for="eviivo-start-date" >Event start date</label>
+                <input class="cp-input icon-calendar start-date icon-input datepicker hasDatepicker" id="eviivo-start-date" name="input" placeholder="Check in" readonly="readonly" value="" type="hidden">
+            </div>
+        
+            <div class="column column-2" style="display: none;">
+                <label for="eviivo-end-date">Event End date</label>
+                <input class="cp-input icon-calendar end-date icon-input datepicker hasDatepicker" id="eviivo-end-date" name="input" placeholder="Check out" readonly="readonly" value="" type="hidden">
+            </div>
+          <div id="datepicker"></div>
+        </div>
+
+
         <div class="bottom-date-item">
             <ul>
                 <button class="custom-date-button active-date-point">Exact Date</button>
@@ -1214,6 +1232,8 @@ places for Advertising
     <!-- <script src="js/script.js"></script> -->
     <script src="js/owl.carousel.js"></script>
     <script src="js/range-script.js"></script>
+    <script src="js/date-script.js"></script>
+    <script src="js/script.js"></script>
     <script>
         $(document).ready(function() {
             $('.review-silder').owlCarousel({
@@ -1382,6 +1402,14 @@ $(window).scroll(function() {
 });
 
 </script>
+
+<script>
+    // $(document).ready(function(){
+    //   $(".ui-datepicker-next").click(function(){
+    //     $("#search_date").css("display", "block");
+    //   });
+    // });
+    </script>
 
 
 </body>

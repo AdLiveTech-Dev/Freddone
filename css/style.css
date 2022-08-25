@@ -2509,3 +2509,7 @@ button.read-more.send-chat-message-btn img {
 .bottom-button-warrper {
    margin-top: 15px;
 }
+.input-search-warrper button.ui-datepicker-current {
+   display: none;
+}
+

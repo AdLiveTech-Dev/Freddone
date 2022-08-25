@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro'); */
+body{
+  margin:0;
+  padding:0;
+}
+.ui-widget-header .ui-icon{
+  background:none !important;
+}
+.ui-datepicker-inline{
+  width:100% !important;
+}
+.hasDatepicker {
+    
+}
+.ui-datepicker-group{
+  float:left;
+  width:50%;
+  position:relative;
+}
+.ui-datepicker-buttonpane{
+  border-top:1px solid rgba(0,0,0,.4);
+  clear:both;
+  padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.ui-datepicker table{
+  width:100%;
+}
+.ui-datepicker-group-last{
+  border-left:1px solid rgba(0,0,0,.4);
+  box-sizing:border-box;
+}
+
+td.ui-state-disabled span.ui-state-default,
+.ui-datepicker td.ui-state-disabled,
+.ui-datepicker .ui-state-disabled span{
+  background:none;
+}
+.dp-highlight .ui-state-default {
+    background-color: #d0a2b1;
+    color: #444;
+}
+
+.mod-search{
+  max-width:1200px;
+}
