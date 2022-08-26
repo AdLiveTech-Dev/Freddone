@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/range-style.css">
+    <link rel="stylesheet" href="css/date-style.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
@@ -24,16 +25,16 @@
              </div>
              <div class="site-search-bar">
                  <div class="input-search-warrper">
-                     <div class="main-warrper">
-                        <div class="menu-item">
-                            <a href="#">Date</a>
+                    <div class="main-warrper">
+                        <div class="menu-item" id="date-show">
+                            <a href="javascript:void(0);">Date</a>
                         </div>
-                        <div class="menu-item">
-                            <a href="#">Rome</a>
+                        <div class="menu-item" id="romo-show">
+                            <a href="javascript:void(0);">Rome</a>
                         </div>
 
-                        <div class="menu-item">
-                            <a href="#">Budget</a>
+                        <div class="menu-item" id="budget-show">
+                            <a href="javascript:void(0);">Budget</a>
                         </div>
                      </div>
                      <button>
@@ -41,6 +42,241 @@
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                           </svg>
                      </button>
+
+                     <!-- dropdown 1 start -->
+<div class="search_drop" id="search_date" style="display: none;">
+    <div class="date-highlight-warrper">
+     <div class="mod-search " id="eviivo-availability-search" style="display: block;">
+ 
+         <input value="" id="default-nights-serviced" type="hidden">
+             <div class="column column-1 tooltip-holder" style="display: none;">
+                 <label for="eviivo-start-date" >Event start date</label>
+                 <input class="cp-input icon-calendar start-date icon-input datepicker hasDatepicker" id="eviivo-start-date" name="input" placeholder="Check in" readonly="readonly" value="" type="hidden">
+             </div>
+         
+             <div class="column column-2" style="display: none;">
+                 <label for="eviivo-end-date">Event End date</label>
+                 <input class="cp-input icon-calendar end-date icon-input datepicker hasDatepicker" id="eviivo-end-date" name="input" placeholder="Check out" readonly="readonly" value="" type="hidden">
+             </div>
+           <div id="datepicker"></div>
+         </div>
+ 
+ 
+         <div class="bottom-date-item">
+             <ul>
+                 <button class="custom-date-button active-date-point">Exact Date</button>
+                 <button class="custom-date-button">±  2 Day</button>
+                 <button class="custom-date-button">±  3 Day</button>
+                 <button class="custom-date-button">±  7 Day</button>
+                 <button class="custom-date-button" id="clear-pop-modal">Ok</button>
+             </ul>
+         </div>
+    </div>
+ </div>
+ <!-- dropdown 1 End -->
+ 
+ <!-- dropdown 2 start -->
+ <div class="search_drop" id="search_romo" style="display: none;">
+     <div class="romo-map">
+         <div class="row">
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                 <div class="romo-map-image">
+                     <img src="img/romo-map.jpg">
+                 </div>
+             </div>
+             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                 <div class="romo-review">
+                     <div class="review-romo-top">
+                         <form>
+                             <input type="text" placeholder="Search for the location" class="search-bar">
+                             <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                               </svg></button>
+                         </form>
+                     </div>
+                     <div class="romo-review-data">
+                         <div class="owl-carousel review-silder owl-theme">
+                             <div class="item">
+                                 <div class="main-label-title">
+                                     <h2>Romo</h2>
+                                     <ul> 
+                                         <li><h4>The Colosseum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Roman Forum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Vittorio Emanuele</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.8</span>
+                                             </div>
+                                         </li>
+ 
+                                     </ul>
+                                 </div>
+                                 <div class="main-label-title">
+                                     <h2>Romo</h2>
+                                     <ul> 
+                                         <li><h4>The Colosseum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Roman Forum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Vittorio Emanuele</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.8</span>
+                                             </div>
+                                         </li>
+ 
+                                     </ul>
+                                 </div>
+                             </div>
+                             <div class="item">
+                                 <div class="main-label-title">
+                                     <h2>Romo</h2>
+                                     <ul> 
+                                         <li><h4>The Colosseum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Roman Forum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Vittorio Emanuele</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.8</span>
+                                             </div>
+                                         </li>
+ 
+                                     </ul>
+                                 </div>
+                                 <div class="main-label-title">
+                                     <h2>Romo</h2>
+                                     <ul> 
+                                         <li><h4>The Colosseum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Roman Forum</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.5</span>
+                                             </div>
+                                         </li>
+                                         <li><h4>Vittorio Emanuele</h4>
+                                             <div class="review-star-header">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <img src="img/star-yellow.svg">
+                                                 <span>4.8</span>
+                                             </div>
+                                         </li>
+ 
+                                     </ul>
+                                 </div>
+                             </div>                            
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- dropdown 3 End -->
+ 
+ <!-- dropdown 3 start -->
+ <div class="search_drop" id="search_budget" style="display: none;">
+     <div class="header-filter-menu">
+         <div class="fiter-lable-header">
+             <h4>Select your budget</h4>
+         </div>
+         <div class="budget-filter-form">
+             <form>
+                 <div class="filter-area-header">
+                     <input type="text" placeholder="Min.Budget" class="input-filter-min">
+                     <div class="top-header-diffreance">
+                         <h4>To</h4>
+                     </div>
+                     <input type="text" placeholder="Min.Budget" class="input-filter-max">
+                     <button class="read-more budget-btn-header">
+                         Apply
+                     </button>
+                 </div>
+             </form>
+         </div>
+     </div>
+ </div>
+ <!-- dropdown 3 End -->
+
                  </div>
              </div>
              <div class="button-wapper">
@@ -50,6 +286,10 @@
          </div>
      </div>
  </header>
+
+
+ 
+
 <div class="companign-page-data">
     <div class="container">
         <section class="wecome-section section-padding">
@@ -482,6 +722,29 @@
     <!-- <script src="js/script.js"></script> -->
     <script src="js/owl.carousel.js"></script>
     <script src="js/range-script.js"></script>
+    <script src="js/date-script.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.review-silder').owlCarousel({
+                loop: false,
+                margin: 10,
+                autoplay:false,
+                nav:true,
+                navText: ['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
+                dots:false,
+                autoplayTimeout:2000,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true,
+                    }
+                }
+            })
+        })
+    </script>
 
     <script>
         $(document).ready(function() {
@@ -563,6 +826,84 @@
             })
         </script>
 
+<script>
+    $(document).ready(function() {
+       $('#date-show').on("click", function(e) {
+           $('#search_date').slideToggle();
+           $('#date-show').addClass('budget-active');
+           $('body').addClass('overlay-div-new-date');
+           e.stopPropagation(); 
+       });
+
+       //$(document).click(function(e){	
+    //     $("body").not("#search_date").click(function(e){
+    //        if(!(e.target.closest('#search_date'))){	
+    //            $("#search_date").slideUp(); 
+    //            $('#date-show').removeClass('budget-active');
+    //            $('body').removeClass('overlay-div-new-date');		
+    //        }
+    //   });
+   
+        $("#clear-pop-modal").click(function(){
+               $("#search_date").slideUp(); 
+               $('#date-show').removeClass('budget-active');
+               $('body').removeClass('overlay-div-new-date');
+        });
+   
+   });
+   
+</script>
+
+<script>
+     $(document).ready(function() {
+    	$('#budget-show').on("click", function(e) {
+			$('#search_budget').slideToggle();
+            $('#budget-show').addClass('budget-active');
+            $('body').addClass('overlay-div');
+			e.stopPropagation(); 
+		});
+
+		$(document).on("click", function(e) {	
+			if(!(e.target.closest('#search_budget'))){	
+				$("#search_budget").slideUp(); 
+                $('#budget-show').removeClass('budget-active');
+                $('body').removeClass('overlay-div');		
+			}
+
+	   });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+       $('#romo-show').on("click", function(e) {
+           $('#search_romo').slideToggle();
+           $('#romo-show').addClass('budget-active');
+           $('body').addClass('overlay-div-new');
+           e.stopPropagation(); 
+       });
+
+       $(document).on("click", function(e) {	
+           if(!(e.target.closest('#search_romo', '#romo-show', 'body'))){	
+               $("#search_romo").slideUp(); 
+               $('#romo-show').removeClass('budget-active');
+               $('body').removeClass('overlay-div-new');		
+           }
+      });
+   });
+</script>
+
+
+<script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 0){  
+            $('.main-header').addClass("sticky");
+        }
+        else{
+            $('.main-header').removeClass("sticky");
+        }
+    });
+    
+    </script>
 
 
 </body>

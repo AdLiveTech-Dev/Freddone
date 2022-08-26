@@ -2250,7 +2250,7 @@ footer {
    border-left: 1px solid #ccc;
    overflow-y: auto;
    height: 100%;
-    max-height: 737px;
+   max-height: 744px;
 }
 .body-sidebar-message ul li {
    display: flex;
@@ -2511,5 +2511,8 @@ button.read-more.send-chat-message-btn img {
 }
 .input-search-warrper button.ui-datepicker-current {
    display: none;
+}
+.main-header.without-filter-header .main-header-warrper {
+   padding-bottom: 0px;
 }
 
