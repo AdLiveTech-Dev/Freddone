@@ -1,6 +1,6 @@
 var dateToday = new Date();
 
-$("#datepicker").datepicker({
+$("#datepicker, #mobiledatepicker").datepicker({
     numberOfMonths: 2,
   showButtonPanel: true,
   minDate: dateToday, // disable previous dates

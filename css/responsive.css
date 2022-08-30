@@ -1,0 +1,966 @@
+@media (max-width: 1024px) {
+    .container-custom {
+        width: 100%;
+    }    
+    .welcome-data h1 {
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+    .owner-data h2{
+        font-size: 20px;
+    }
+    .welcome-data p {
+        font-size: 17px;
+    }
+    .main-title-inner h2 {
+        font-size: 36px;
+    }  
+    .consult-card, .under-stand{
+        padding: 25px;
+    }  
+    .profile-data h2 {
+        font-size: 22px;
+    }
+    .description-points h3{
+        font-size: 1.2rem;
+    }
+    .profiles-description p{
+        font-size: 17px;
+    }
+    .request-form {
+        padding: 60px;
+    }
+    .title-heading h2 {
+        font-size: 36px;
+    }
+    .input-text{
+        padding: 15px;
+    }
+    .about-train-campaign {
+        padding-left: 25px;
+    }
+    .campaign-data-about h2 {
+        font-size: 36px;
+    }
+    .campaign-data-about p {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+    .col-12.filter-column-full {
+        width: 100%;
+    }
+    .poster-warrper-activity {
+        margin: 20px 5px 0px 0px;
+        padding: 10px 10px 25px 0px;
+    }
+    .stricky-activity {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 769px){
+    .read-more{
+        padding: 8px 25px;
+        font-size: 17px;
+    }
+    .section-padding{
+        padding: 50px 0px;
+    }
+    .menu-item a {
+        padding: 10px 18px;
+        line-height: normal;
+        font-size: 13px;
+    }
+    .input-search-warrper button{
+        width: 39px;
+        height: 39px;
+        border-radius: 10px;
+        top: 0px;
+    }
+    .input-search-warrper button svg {
+        color: #ffffff;
+        width: 16px;
+    }
+    .site-search-bar{
+        width: 50%;
+    }
+    .menu-item a:after{
+        width: 10px;
+        height: 10px;
+        top: 16px;
+        background-size: 12px;
+    }
+    .site-search-bar {
+        display: none;
+    }
+    button#filter-mobile-view-btn{
+        display: block;
+        height: 40px;
+        border-radius: 10px;
+        width: 40px;
+    }
+    button#filter-mobile-view-btn svg {
+        width: 17px;
+        height: 17px;
+    }
+    .toggle-menu-desktop{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .toggle-menu-desktop img {
+        width: 15px;
+    }
+    .register-login {
+        margin-right: 20px;
+    }
+    .collection-icon-wapper{
+        padding-right: 0px;
+    }
+    .main-header .col-lg-11{
+        width: 80%;
+    }
+    .main-header .col-lg-1 {
+        width: 20%;
+    }
+    .featured-warrper a {
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+    .featured-warrper img{
+        margin: 0 auto 4px;
+    }
+    .main-header-warrper{
+        padding-bottom: 10px;
+    }
+    .main-header.sticky{
+        padding-top: 10px;
+    }
+    .custom-date-pop .modal-dialog {
+        max-width: 95%;
+    }
+    .review-romo-top input{
+        padding: 10px 10px 10px 35px;
+    }
+    .romo-popup .review-romo-top button {
+        width: 13px;
+        height: 17px;
+        top: 13px;
+    }
+    .main-label-title h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .main-label-title ul li{
+        margin-bottom: 0;
+    }
+    .main-label-title ul li:first-child h4 {
+        font-size: 16px;
+    }
+    
+    .main-label-title h4 {
+        font-size: 16px;
+    }
+    .romo-review-data .main-label-title {
+        margin-top: 15px;
+        padding-top: 13px;
+    }
+    button#filter-mobile-view-btn.show-menu .open-search-icon {
+        display: none;
+    }
+    button#filter-mobile-view-btn.show-menu .close-icon {
+        display: block;
+        width: 38px;
+    height: 31px;
+    }
+    button#filter-mobile-view-btn .close-icon {
+        display: none;
+    }
+    .input-search-warrper{
+        box-shadow: 0px 2px 10px 7px #0000000a;
+    }
+    .filter-icon a{
+        width: 100%;
+        font-size: 15px;
+    }
+    .main-header.sticky .mobile-view-filter-btn .site-search-bar {
+        padding-bottom: 13px;
+    }
+    .poster-item span{
+        font-size: 14px;
+    }
+    .poster-item p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .poster-item {
+        margin: 20px 0px 35px;
+    }
+    .read-more.bill-btn {
+        margin-top: 30px;
+    }
+    .billboard-data h2 {
+        font-size: 39px;
+    }
+    .billboard-warrper img{
+        min-height: 390px;
+    }
+    .main-title {
+        padding-bottom: 35px;
+    }
+    .main-title h2 {
+        font-size: 36px;
+    }
+    .campaign-section .poster-warrper {
+        margin-bottom: 40px;
+    }
+    .main-title-headig h2 {
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+    .counter-box{
+        margin: 27px 0px;
+    }
+    .how-it-data h3 {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+    .how-it-data p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .counter-box:after{
+        left: -3px;
+        width: 113%;
+    }
+    .faq-section.section-padding {
+        padding-top: 0px;
+    }
+    .faq-section .main-title h2 {
+        font-size: 36px;
+    }
+    .accoudian-data {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .faq-image {
+        padding-right: 0;
+    }
+    .accoudian-data .accordion-item .accordion-button{
+        font-size: 20px;
+    }
+    .accoudian-data .accordion-item .accordion-collapse .accordion-body {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        padding-left: 46px;
+        font-size: 15px;
+    }
+    footer {
+        padding: 60px 0px 30px;
+    }
+    .footer-logo-image {
+        margin-bottom: 40px;
+    }
+    .footer-menu ul li a {
+        font-size: 16px;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .footer-menu h4{
+        margin-bottom: 22px;
+    }
+    footer .row:first-child .col-12:nth-child(2) .row .col-12 {
+        margin-bottom: 20px;
+    }
+    .copyright {
+        display: block;
+        padding-top: 30px;
+        margin-top: 12px;
+    }
+    .social-media {
+        margin-top: 20px;
+    }
+    .social-media ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .social-media ul li:first-child a {
+        margin-left: 0px;
+    }
+    .copy-right-data p {
+        font-size: 15px;
+    }
+    .copy-right-data a {
+        font-size: 15px;
+    }
+    .filter-modal-custom .modal-dialog {
+        max-width: 95%;
+    }
+    .budget-data {
+        padding: 2rem 2rem 3rem;
+    }
+    .place-data {
+        padding: 2rem 2rem;
+    }
+    .fiter-title h3 {
+        font-size: 20px;
+    }
+    .place-data-check {
+        padding-top: 20px;
+    }
+    .data-check-place h4 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .data-check-place p {
+        font-size: 15px;
+    }
+    .data-check-place {
+        padding-top: 15px;
+    }
+    .checkbox-design input {
+        width: 25px;
+        height: 25px;
+    }
+    .checkbox-design input:before {
+        width: 25px;
+        height: 25px;
+    }
+    .checkbox-design label:before{
+        width: 25px;
+        height: 25px;        
+    }
+    .place-data.campaign-filter-data .place-data-check .data-check-place h4 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .checkbox-design input:checked + label:after{
+        top: 6px;
+        left: 9px;
+        width: 6px;
+        height: 10px;
+    }
+    .booking-item-data h4 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .booking-item-data p {
+        font-size: 15px;
+    }
+    .booking-option-fiter ul li {
+        padding-top: 20px;
+    }
+    .filter-footer{
+        padding: 1rem 2rem;
+    }
+    .read-more.view-all-btn, .read-more.show-more-btn{
+        font-size: 17px;
+    }
+    .poster-warrper-activity {
+        margin: 20px 5px 0px 0px;
+        padding: 10px 10px 25px 0px;
+    }
+    .stricky-activity {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .poster-warrper-activity {
+        margin: 20px 5px 0px 0px;
+        padding: 10px 10px 25px 0px;
+    }
+    .stricky-activity {
+        margin-top: 50px;
+    }
+    .read-more{
+        padding: 8px 25px;
+        font-size: 17px;
+    }
+    .section-padding{
+        padding: 50px 0px;
+    }
+    .menu-item a {
+        padding: 10px 18px;
+        line-height: normal;
+        font-size: 13px;
+    }
+    .input-search-warrper button{
+        width: 39px;
+        height: 39px;
+        border-radius: 10px;
+        top: 0px;
+    }
+    .input-search-warrper button svg {
+        color: #ffffff;
+        width: 16px;
+    }
+    .site-search-bar{
+        width: 50%;
+    }
+    .menu-item a:after{
+        width: 10px;
+        height: 10px;
+        top: 16px;
+        background-size: 12px;
+    }
+    .site-search-bar {
+        display: none;
+    }
+    button#filter-mobile-view-btn{
+        display: block;
+        height: 40px;
+        border-radius: 10px;
+        width: 40px;
+    }
+    button#filter-mobile-view-btn svg {
+        width: 17px;
+        height: 17px;
+    }
+    .toggle-menu-desktop{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .toggle-menu-desktop img {
+        width: 15px;
+    }
+    .register-login {
+        margin-right: 20px;
+    }
+    .collection-icon-wapper{
+        padding-right: 0px;
+    }
+    .main-header .col-lg-11{
+        width: 80%;
+    }
+    .main-header .col-lg-1 {
+        width: 20%;
+    }
+    .featured-warrper a {
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+    .featured-warrper img{
+        margin: 0 auto 4px;
+    }
+    .main-header-warrper{
+        padding-bottom: 10px;
+    }
+    .main-header.sticky{
+        padding-top: 10px;
+    }
+    .custom-date-pop .modal-dialog {
+        max-width: 95%;
+    }
+    .review-romo-top input{
+        padding: 10px 10px 10px 35px;
+    }
+    .romo-popup .review-romo-top button {
+        width: 13px;
+        height: 17px;
+        top: 13px;
+    }
+    .main-label-title h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .main-label-title ul li{
+        margin-bottom: 0;
+    }
+    .main-label-title ul li:first-child h4 {
+        font-size: 16px;
+    }
+    
+    .main-label-title h4 {
+        font-size: 16px;
+    }
+    .romo-review-data .main-label-title {
+        margin-top: 15px;
+        padding-top: 13px;
+    }
+    button#filter-mobile-view-btn.show-menu .open-search-icon {
+        display: none;
+    }
+    button#filter-mobile-view-btn.show-menu .close-icon {
+        display: block;
+        width: 38px;
+    height: 31px;
+    }
+    button#filter-mobile-view-btn .close-icon {
+        display: none;
+    }
+    .input-search-warrper{
+        box-shadow: 0px 2px 10px 7px #0000000a;
+    }
+    .filter-icon a{
+        width: 100%;
+        font-size: 15px;
+    }
+    .main-header.sticky .mobile-view-filter-btn .site-search-bar {
+        padding-bottom: 13px;
+    }
+    .poster-item span{
+        font-size: 14px;
+    }
+    .poster-item p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .poster-item {
+        margin: 20px 0px 35px;
+    }
+    .read-more.bill-btn {
+        margin-top: 30px;
+    }
+    .billboard-data h2 {
+        font-size: 39px;
+    }
+    .billboard-warrper img{
+        min-height: 390px;
+    }
+    .main-title {
+        padding-bottom: 35px;
+    }
+    .main-title h2 {
+        font-size: 36px;
+    }
+    .campaign-section .poster-warrper {
+        margin-bottom: 40px;
+    }
+    .main-title-headig h2 {
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+    .counter-box{
+        margin: 27px 0px;
+    }
+    .how-it-data h3 {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+    .how-it-data p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .counter-box:after{
+        left: -3px;
+        width: 113%;
+    }
+    .faq-section.section-padding {
+        padding-top: 0px;
+    }
+    .faq-section .main-title h2 {
+        font-size: 36px;
+    }
+    .accoudian-data {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .faq-image {
+        padding-right: 0;
+    }
+    .accoudian-data .accordion-item .accordion-button{
+        font-size: 20px;
+    }
+    .accoudian-data .accordion-item .accordion-collapse .accordion-body {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        padding-left: 46px;
+        font-size: 15px;
+    }
+    footer {
+        padding: 60px 0px 30px;
+    }
+    .footer-logo-image {
+        margin-bottom: 40px;
+    }
+    .footer-menu ul li a {
+        font-size: 16px;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .footer-menu h4{
+        margin-bottom: 22px;
+    }
+    footer .row:first-child .col-12:nth-child(2) .row .col-12 {
+        margin-bottom: 20px;
+    }
+    .copyright {
+        display: block;
+        padding-top: 30px;
+        margin-top: 12px;
+    }
+    .social-media {
+        margin-top: 20px;
+    }
+    .social-media ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .social-media ul li:first-child a {
+        margin-left: 0px;
+    }
+    .copy-right-data p {
+        font-size: 15px;
+    }
+    .copy-right-data a {
+        font-size: 15px;
+    }
+    .filter-modal-custom .modal-dialog {
+        max-width: 95%;
+    }
+    .budget-data {
+        padding: 2rem 2rem 3rem;
+    }
+    .place-data {
+        padding: 2rem 2rem;
+    }
+    .fiter-title h3 {
+        font-size: 20px;
+    }
+    .place-data-check {
+        padding-top: 20px;
+    }
+    .data-check-place h4 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .data-check-place p {
+        font-size: 15px;
+    }
+    .data-check-place {
+        padding-top: 15px;
+    }
+    .checkbox-design input {
+        width: 25px;
+        height: 25px;
+    }
+    .checkbox-design input:before {
+        width: 25px;
+        height: 25px;
+    }
+    .checkbox-design label:before{
+        width: 25px;
+        height: 25px;        
+    }
+    .place-data.campaign-filter-data .place-data-check .data-check-place h4 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .checkbox-design input:checked + label:after{
+        top: 6px;
+        left: 9px;
+        width: 6px;
+        height: 10px;
+    }
+    .booking-item-data h4 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .booking-item-data p {
+        font-size: 15px;
+    }
+    .booking-option-fiter ul li {
+        padding-top: 20px;
+    }
+    .filter-footer{
+        padding: 1rem 2rem;
+    }
+    .read-more.view-all-btn, .read-more.show-more-btn{
+        font-size: 17px;
+    }
+
+/* campaign start */
+
+    .welcome-data h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .owner-data-warrer{
+        flex-wrap: wrap;
+    }
+    .owner-details{
+        width: 100%;
+    }
+    .owner-data-warrer .owner-details {
+        padding-bottom: 30px;
+        justify-content: center;
+    }
+    .perdid-time {
+        width: 50%;
+    }
+    .budget-item {
+        width: 50%;
+    }
+    .owner-data span {
+        display: block;
+    }
+    .owner-data h2 {
+        font-size: 17px;
+    }
+    .main-title-inner h2 {
+        font-size: 26px;
+    }
+    .main-title-inner {
+        margin-bottom: 25px;
+    }
+    .consiult-data .col-12:first-child {
+        padding-right: 12px;
+    }
+    .consult-card {
+        border-radius: 20px 20px 0px 0px;
+    }
+    .consiult-data .col-12:last-child {
+        padding-left: 11px;
+    }
+    .under-stand {
+        border-left: 0px;
+    }
+    .profile-images{
+        width: auto;
+    }
+    .advertising-section .consiult-data {
+        margin-bottom: 25px;
+    }
+    .know-more {
+        padding: 9px 16px;
+        font-size: 17px;
+    }
+    .request-form {
+        padding: 40px;
+    }
+    .input-text, .input-field select {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .title-heading h2 {
+        font-size: 26px;
+    }
+    .about-us-section {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .about-train-campaign {
+        padding-left: 0;
+    }
+    .campaign-data-about h2 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+    .main-header.without-filter-header .site-search-bar {
+        padding-top: 20px;
+    }
+    .read-more.campaign-btn {
+        font-size: 17px;
+    }
+    .campaign-data-about p {
+        margin-bottom: 12px;
+    }
+    .description-points ul{
+        height: auto;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+    .main-header .col-lg-1{
+        display: none;
+    }
+    .main-header .col-lg-11{
+        width: 100%;
+    }
+    .counter-box:after {
+        left: 0px;
+        width: 100%;
+    }
+    .billboard-data {
+        width: 60%;
+        padding-top: 25px;
+        padding-right: 24px;
+    }
+    .billboard-data h2 {
+        font-size: 19px;
+    }
+    .read-more.bill-btn {
+        margin-top: 17px;
+    }
+    .how-section .row .col-12:first-child .counter-box:after, .how-section .row .col-12:last-child .counter-box:after {
+        width: 100%;
+        left: 0;
+        border: 1px dotted #cccccc;
+    }
+    .counter-box:after{
+        border: 1px dotted #ccc;
+    }
+    .poster-album span{
+        font-size: 16px;
+        padding: 8px 23px 7px;
+    }
+    .contact-us-data h2{
+        font-size: 28px;
+    }
+    .read-more.home-contactus {
+        margin-top: 20px;
+    }
+    .poster-warrper-item {
+        height: auto;
+        min-height: 350px;
+        margin-bottom: 30px;
+    }
+    .know-more{
+        padding: 10px 24px;
+        font-size: 17px;
+    }
+    .know-more img {
+        max-width: 15px;
+        margin-right: 12px;
+    }
+    .billboard-warrper img {
+        min-height: 230px;
+    }
+    .campaign-section.section-padding{
+        padding: 40px 0px 0px;
+    }
+    .main-title {
+        padding-bottom: 25px;
+    }
+    .main-title h2 {
+        font-size: 24px;
+    }
+    .how-section.section-padding {
+        padding-top: 0px;
+    }
+    .faq-section .main-title h2 {
+        font-size: 24px;
+    }
+    .accoudian-data .accordion-item .accordion-button {
+        font-size: 16px;
+    }
+    .accoudian-data .accordion-item .accordion-collapse .accordion-body {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    .faq-section.section-padding {
+        padding-bottom: 30px;
+    }
+    .footer-menu ul li a {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .copy-right-data {
+        display: block;
+    }
+    .copy-right-data a {
+        font-size: 15px;
+        margin-left: 0px;
+        padding-left: 0px;
+        border-left: 0px;
+    }
+    .social-media ul li a {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .custom-date-pop .modal-body {
+        padding: 20px;
+    }
+    .custom-date-pop .ui-datepicker-inline{
+        flex-direction: column;
+    }
+    .custom-date-pop .ui-datepicker-group {
+        float: none !important;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-left: 0px;
+    }
+    .ui-datepicker-group {
+        width: 100%;
+    }
+    .custom-date-pop .ui-datepicker-group.ui-datepicker-group-last {
+        padding-top: 30px;
+        border-top: 1px solid #ccc;
+        margin-top: 30px;
+    }
+    .custom-date-pop button.custom-date-button {
+        margin-top: 10px;
+    }
+    .romo-popup .romo-map, .budget-popup .header-filter-menu{
+        padding: 20px;
+    }
+    .romo-map-image {
+        padding-right: 0px;
+    }
+    .romo-review {
+        margin-top: 30px;
+    }
+    .filter-area-header {
+        display: block;
+    }
+    .top-header-diffreance {
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .budget-popup .read-more.budget-btn-header {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* campaign page start */
+    .budget-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .perdid-time {
+        width: 100%;
+        padding: 0;
+    }
+    .owner-data-warrer .owner-details {
+        padding-bottom: 20px;
+        justify-content: flex-start;
+    }
+    .section-padding{
+        padding: 40px 0px;
+    }
+    .under-stand {
+        flex-direction: column-reverse;
+    }
+    .description-points {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .profile-thumbnails {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+    .request-form {
+        padding: 30px;
+    }
+    .about-campaign-image {
+        padding-bottom: 25px;
+    }
+    .read-more.campaign-btn {
+        margin-top: 10px;
+    }
+    .activity-filter {
+        display: block;
+        padding-bottom: 30px;
+    }
+    .activity-data-title h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .activity-box .row .col-12:last-child .poster-warrper-activity {
+        padding-bottom: 0px;
+    }
+    .activity-box{
+        padding-right: 0px;
+    }
+    .poster-warrper-activity{
+        margin-top: 0;
+    }
+}

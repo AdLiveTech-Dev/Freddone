@@ -2516,3 +2516,121 @@ button.read-more.send-chat-message-btn img {
    padding-bottom: 0px;
 }
 
+/* Mobile view filter start */
+
+.mobile-view-filter-btn .site-search-bar {
+   width: 100%;
+   max-width: 100%;
+   display: block;
+}
+.mobile-view-filter-btn {
+   display: none;
+}
+.custom-date-pop .modal-body {
+   padding: 40px;
+}
+
+.custom-date-pop .modal-dialog .btn-close {
+   position: absolute;
+   right: 9px;
+   top: 7px;
+   z-index: 11;
+}
+.custom-date-pop .modal-dialog {
+   max-width: 936px;
+}
+.custom-date-pop .ui-datepicker-buttonpane.ui-widget-content {
+   display: none;
+}
+
+.custom-date-pop button.custom-date-button.active-date-point {
+   background-color: #f2f2f2;
+   border-color: transparent;
+}
+.custom-date-pop button.custom-date-button {
+   background-color: #ffffff;
+   border: 1px solid #636363;
+   width: auto;
+   padding: 8px 20px;
+   height: auto;
+   right: 0;
+   margin-right: 8px;
+   color: #636363;
+   transition: 0.5s;
+   border-radius: 10px;
+}
+.custom-date-pop .ui-datepicker-group{
+   float: none !important;
+}
+.custom-date-pop .ui-datepicker-inline {
+   width: 100% !important;
+   display: flex !important;
+   align-items: flex-start;
+}
+.custom-date-pop .bottom-date-item {
+   padding-top: 30px;
+}
+.custom-date-pop .modal-content{
+   border-radius: 10px;
+}
+.romo-popup .romo-map, .budget-popup .header-filter-menu {
+   width: 100%;
+   background-color: #ffff;
+   border-radius: 10px;
+   padding: 30px;
+   z-index: 9;
+}
+.romo-popup .review-romo-top button {
+   position: absolute;
+   left: 13px;
+   background-color: transparent;
+   width: 17px;
+   height: 17px;
+   top: 20px;
+   border: 0px;
+}
+.romo-popup .owl-nav button {
+   background-color: #22d16c !important;
+   position: relative;
+   right: 0;
+   border: 1px solid #22d16c !important;
+   width: 30px;
+   height: 30px;
+   border-radius: 50% !important;
+   top: 0px;
+   color: #ffffff !important;
+   font-size: 13px !important;
+   z-index: 99999 !important;
+   margin: 0px !important;
+}
+.romo-popup .owl-nav button.owl-next.disabled {
+   border: 1px solid #ccc !important;
+   background-color: transparent !important;
+   color: #000000 !important;
+}
+.romo-popup .owl-nav button.owl-prev.disabled {
+   border: 1px solid #ccc !important;
+   background-color: transparent !important;
+   color: #000000 !important;
+}
+
+.budget-popup .read-more.budget-btn-header {
+   border: 0px;
+}
+
+button#filter-mobile-view-btn svg {
+   width: 21px;
+   height: 21px;
+}
+
+button#filter-mobile-view-btn path {
+   fill: #ffffff;
+}
+button#filter-mobile-view-btn {
+   display: none;
+   border: 0px;
+   background-color: #22d16c;
+   height: 50px;
+   border-radius: 10px;
+   width: 49px;
+}
