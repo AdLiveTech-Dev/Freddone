@@ -46,9 +46,38 @@
         font-size: 17px;
         margin-bottom: 20px;
     }
+
+    /* single page start */
+    .single-gallery-data .item-gallery:nth-child(1){
+        width: 34%;
+    }
+    .single-gallery-data .item-gallery:nth-child(2) {
+        width: 59%;
+    }
+    .single-gallery-data .item-gallery:nth-child(4) {
+        width: 46%;
+    }
+    .single-gallery-data .item-gallery:nth-child(5) {
+        width: 47%;
+    }
+    .view-all-gallery h6 {
+        font-size: 17px;
+    }
+    .history-item {
+        margin-bottom: 40px;
+    }
+    .request-form-campaign{
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 992px){
+    .single-campaign-data .col-12 {
+        width: 50%;
+    }
+    .single-campaign-data .poster-item {
+        margin-bottom: 40px;
+    }
     .col-12.filter-column-full {
         width: 100%;
     }
@@ -765,8 +794,121 @@
     .description-points ul{
         height: auto;
     }
+
+    /* single page start css */
+
+    .single-gallery-data .item-gallery:nth-child(4){
+        width: 50%;
+    }
+    .single-gallery-data .item-gallery:nth-child(1) {
+        width: 37%;
+    }
+    .campaign-full-description p {
+        font-size: 17px;
+    }
+    .single-campaign-data .poster-item {
+        margin-bottom: 40px;
+    }
+    .review-box{
+        margin-left: 0px;
+        margin-bottom: 70px
+    }
+    .logo-history img{
+        max-width: 150px;
+    }
+    .main-title-section h2 {
+        font-size: 36px;
+    }  
+    .single-campaign-data {
+        padding-right: 0;
+    }  
+
+    .screen-message-warrper {
+        grid-template-columns: 100%;
+    }
+    .dashborad-message{
+        border-radius: 15px 15px 0px 0px;
+    }
+    .screenbox-area {
+        border-radius: 0px 0px 15px 15px;
+        border-left: 1px solid #ccc;
+    }
+    .sidebar-message {
+        overflow: hidden;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .body-sidebar-message{
+        max-height: 285px;
+    }
+    .message-title h2 {
+        font-size: 26px;
+    }
 }
 @media screen and (max-width: 767px) and (min-width: 320px){
+    .Campaign-title h2 {
+        font-size: 23px;
+    }
+    .Campaign-title h6 {
+        font-size: 14px;
+    }
+    .scampaign-data-page {
+        display: block;
+    }
+    .share-data-link a:first-child {
+        margin-left: 0px;
+    }
+    .Campaign-title {
+        padding-bottom: 20px;
+    }
+    .campaign-full-description {
+        padding-top: 25px;
+    }
+    .single-gallery-data .item-gallery:nth-child(2) {
+        width: 56%;
+    }
+    .single-gallery-data .item-gallery:nth-child(4) {
+        width: 46%;
+    }
+    .main-title-section h2 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .single-page-campaign.section-padding {
+        padding: 40px 0px 20px;
+    }
+    .single-campaign-data .poster-item {
+        margin-bottom: 30px;
+    }
+    .request-form-campaign .title-heading h2 {
+        font-size: 26px;
+    }
+    .other-space .poster-item p {
+        font-size: 15px;
+    }
+    .history-content p {
+        font-size: 15px;
+    }
+    .history-warrper {
+        padding-top: 50px;
+    }
+    .campaign-full-description p {
+        font-size: 15px;
+    }
+    .request-form-campaign {
+        margin-top: 15px;
+        padding: 20px;
+    }
+    .request-form-campaign .input-text {
+        padding: 10px;
+    }
+    .input-text.textarea-input {
+        min-height: 100px;
+    }
+
+
+
+
     .main-header .col-lg-1{
         display: none;
     }

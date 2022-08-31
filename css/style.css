@@ -211,7 +211,7 @@ a {font-size: 15px;
 }
 .site-search-bar {
    width: 64%;
-   max-width: 936px;
+   max-width: 670px;
 }
 .card-section.section-padding {
    padding-top: 30px;
@@ -511,11 +511,15 @@ a {font-size: 15px;
 .owl-carousel .owl-item .featured-warrper.active-filter img {
    display: none;
 }
+.ui-datepicker-header a.ui-corner-all {
+   cursor: pointer;
+}
 .featured-warrper img {
-   width: 55px !important;
+   width: 40px !important;
    height: auto;
    text-align: center;
    margin: 0 auto 10px;
+   transform: scale(1.2);
 }
 .collection-icon-wapper .featured-silder .owl-nav {
    margin-top: 0px;
@@ -649,7 +653,7 @@ a {font-size: 15px;
    margin: 35px 0px 60px;
 }
 .poster-item span {
-   font-size: 16px;
+   font-size: 15px;
    margin: 10px 0px;
    display: flex;
    align-items: center;
@@ -817,7 +821,7 @@ color: #5bdb90;
 }
 .contact-us-data h2 {
    color: #fff;
-   font-size: 38px;
+   font-size: 34px;
    font-weight: bold;
 }
 .main-title-headig h2 {
