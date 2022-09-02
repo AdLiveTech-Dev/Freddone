@@ -1105,4 +1105,72 @@
     .poster-warrper-activity{
         margin-top: 0;
     }
+
+    .similar-dashboard.connected-form, .similar-dashboard.period-times-now, .similar-dashboard.locatity-times-now, .similar-dashboard.interview-status {
+        display: none;
+    }
+    .adtive-profiles{
+        width: 82px;
+    }
+    .arrow-down {
+        display: inline-block;
+    }
+    .chat-recived {
+        grid-template-columns: 20% 80%;
+    }
+    .icon-image-chat {
+        width: 100%;
+        height: 35px;
+        max-width: 35px;
+    }
+    .chat-recived-message-box {
+        padding: 6px 8px;
+    }
+    .chat-recived-message-box h4 {
+        font-size: 14px;
+    }
+    .message-type-area-select input{
+    padding: 10px 15px;
+    padding-right: 137px;
+    font-size: 14px;
+    }
+    .send-button button{
+        margin-left: 15px;
+    }
+    .send-button img {
+        width: 14px;
+    }
+    .send-button button.read-more {
+        margin-left: 9px;
+        padding: 8px 10px 8px 10px;
+    }
+    button.read-more.send-chat-message-btn img {
+        width: 13px;
+        margin-left: 10px;
+    }
+    .bottom-button-warrper button {
+        font-size: 11px;
+        padding: 6px 9px;
+        margin-right: 4px;
+    }
+    .dropdown-select-val .dropdown-menu li .similar-dashboard.connected-form, 
+    .dropdown-select-val .dropdown-menu li .similar-dashboard.period-times-now, 
+    .dropdown-select-val .dropdown-menu li .similar-dashboard.locatity-times-now, 
+    .dropdown-select-val .dropdown-menu li .similar-dashboard.interview-status{
+        display: block;
+    }
+    .main-message-heading {
+        display: block;
+        padding-bottom: 25px;
+    }
+    .message-title {
+        padding-bottom: 20px;
+    }
+    .message-title h2 {
+        font-size: 20px;
+    }
+    .fillter-selected select {
+        width: 100%;
+        padding: 8px 10px 8px;
+    }
 }

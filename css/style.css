@@ -2128,7 +2128,7 @@ footer {
 }
 .screen-message-warrper {
    display: grid;
-   grid-template-columns: 35% 65%;
+   grid-template-columns: 34% 66%;
    align-items: flex-start;
 }
 .header-sidebar-message {
@@ -2190,20 +2190,20 @@ footer {
 .dashbroad-profile {
    display: grid;
    align-items: center;
-   margin-right: 10px;
+   margin-right: 6px;
    grid-template-columns: 30% 53%;
-   max-width: 135px;
+   max-width: 118px;
 }
 .profiles-images {
    border-radius: 50%;
    overflow: hidden;
 }
 .adtive-profiles {
-   width: 85px;
+   width: 73px;
    margin-left: 5px;
 }
 .adtive-profiles h2 {
-   font-size: 19px;
+   font-size: 17px;
    font-weight: 500;
 }
 .adtive-profiles h6 {
@@ -2213,24 +2213,20 @@ footer {
 .similar-dashboard {
    margin-right: 10px;
 }
-.similar-dashboard h6 {
-   font-size: 12px;
-   color: #989898;
-}
 .similar-dashboard h2 {
-   font-size: 14px;
+   font-size: 13px;
    margin-top: 3px;
 }
 .video-icon-data {
    display: flex;
    align-items: center;
    width: 100%;
-   max-width: 106px;
+   max-width: 93px;
    justify-content: space-between;
 }
 .video-icon-data a.icon-new-data {
-   width: 40px;
-   height: 40px;
+   width: 35px;
+   height: 35px;
    background-color: #ffff;
    border: 1px solid #cccc;
    border-radius: 50%;
@@ -2254,7 +2250,7 @@ footer {
    border-left: 1px solid #ccc;
    overflow-y: auto;
    height: 100%;
-   max-height: 744px;
+   max-height: 737px;
 }
 .body-sidebar-message ul li {
    display: flex;
@@ -2265,7 +2261,7 @@ footer {
 }
 .screenbox-area {
    width: 100%;
-   min-height: 686px;
+   min-height: 721px;
    background-color: #fff;
    max-height: 785px;
    border-radius: 0px 0px 15px 0px;
@@ -2278,7 +2274,7 @@ footer {
    align-items: center;
    margin-right: 5px;
    grid-template-columns: 30% 53%;
-   max-width: 118px;
+   max-width: 114px;
 }
 .sidebar-profiles-images {
    border-radius: 50%;
@@ -2289,7 +2285,7 @@ footer {
    margin-left: 5px;
 }
 .sidebar-adtive-profiles h2 {
-   font-size: 15px;
+   font-size: 12px;
    font-weight: 500;
    margin-bottom: 4px;
 }
@@ -2299,7 +2295,7 @@ footer {
    margin-bottom: 3px;
 }
 .sidebar-adtive-profiles h4 {
-   font-size: 12px;
+   font-size: 11px;
    color: #636363;
    font-weight: 500;
 }
@@ -2307,21 +2303,17 @@ footer {
    margin-right: 10px;
 }
 .similar-dashboard h6 {
-   font-size: 12px;
+   font-size: 10px;
    color: #989898;
-}
-.body-sidebar-message .similar-dashboard h2 {
-   font-size: 12px;
-   font-weight: 500;
 }
 .similar-dashboard span {
    display: inline-block;
-   font-size: 12px;
+   font-size: 9px;
    margin-bottom: 6px;
    color: #aaaaaa;
 }
 .body-sidebar-message .similar-dashboard h2 {
-   font-size: 12px;
+   font-size: 10px;
    font-weight: 500;
 }
 .body-sidebar-message ul li.active-chat {
@@ -2637,4 +2629,33 @@ button#filter-mobile-view-btn {
    height: 50px;
    border-radius: 10px;
    width: 49px;
+}
+.arrow-down svg {
+   width: 12px;
+   position: relative;
+   top: -1px;
+
+}
+.arrow-down {
+   display: none;
+   border: 0px;
+}
+.dots-vertical.dropdown-toggle:after {
+   display: none;
+}
+.dropdown-select-val .dropdown-menu {
+   right: 0 !important;
+   left: auto !important;
+   transform: translate(1px, 50px) !important;
+   padding: 0px;
+   min-width: 13rem;
+   border: 0px;
+   box-shadow: -4px 11px 8px 7px #00000012;
+}
+.dropdown-select-val {
+   position: relative;
+}
+.dropdown-select-val .dropdown-menu li {
+   padding: 10px;
+   border-bottom: 1px solid #ccc;
 }
